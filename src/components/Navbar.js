@@ -1,5 +1,5 @@
 import React from "react";
-import Pic from "../assets/portfolio.png";
+import Pic from "../assets/bar-chart.png";
 
 const Navbar = () => {
   return (
@@ -23,7 +23,7 @@ const Navbar = () => {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item active">
               <a className="nav-link" href="#">
-                Home <span class="sr-only"></span>
+                home <span className="sr-only"></span>
               </a>
             </li>
             <li className="nav-item">

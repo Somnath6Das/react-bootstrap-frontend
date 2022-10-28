@@ -10,9 +10,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 let App = () => {
   return (
-
       <Navbar/>
- 
   );
 };
 
