@@ -1,13 +1,17 @@
 import React from "react";
 import Pic from "../assets/bar-chart.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import fa then icon name for using FontAwesome icons. 
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img className="logo" src={Pic} alt="logo..." />
-        </a>
+          <img className="logo" src={Pic} alt="logo..." /> 
+        </a><h5 style={{color: "#fff"}}>Make My App</h5> 
         <button
           className="navbar-toggler"
           type="button"
@@ -17,7 +21,8 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+        
+     <FontAwesomeIcon icon={faBars} style={{color: "#fff"}} />
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">

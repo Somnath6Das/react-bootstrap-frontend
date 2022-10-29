@@ -16,3 +16,29 @@
 
 // copy JS code to public > index.html  inside body tag
 https://getbootstrap.com/docs/4.0/getting-started/introduction/
+
+
+
+ 
+ 
+  BootStrap 5 (new version changes)
+
+  ml-auto => ms-auto
+  mr-auto => me-auto
+
+  data-toggle => data-bs-toggle
+  data-target => data-bs-target
+
+
+
+
+
+
+  // font-awesome svg icons
+  // https://fontawesome.com/v5/docs/web/use-with/react
+
+  // npm i --save @fortawesome/fontawesome-svg-core
+
+  // npm i --save @fortawesome/react-fontawesome
+
+  // npm i --save @fortawesome/free-solid-svg-icons
