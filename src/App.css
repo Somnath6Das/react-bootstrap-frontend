@@ -7,7 +7,7 @@
   --primary-dark: rgba(255,255,255,0);
   --primary-yellow: #f8b21b;
   --primary-red: #ef4035;
-  -primary-hover-red: #f33501;
+  --primary-hover-red: #f33501;
 }
 
 body {
@@ -85,6 +85,16 @@ font-size: 1rem;
   text-transform: uppercase;
 }
 
+@media(max-width:767px) {
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+  .navbar-brand {
+    width:5rem;
+  }
+}
+
+
 /**   Header Button     */
 .btn-main-offer {
   border: 1px solid var(--primary-red);
@@ -93,6 +103,12 @@ font-size: 1rem;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
-  text-decoration: none;
+   text-decoration: none;
 }
 
+.btn-main-offer:hover {
+ 
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
